@@ -1,0 +1,19 @@
+.Categories {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Categories > button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 0.5rem;
+    background-color:greenyellow;
+}
+
+button.selected {
+  background-color: firebrick;
+  color: white;
+}
